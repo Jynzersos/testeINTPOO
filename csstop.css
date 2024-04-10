@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body h1 {
+    color: #000;
+    font-size: medium;
+    position: absolute;
+    align-items: center;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#5d615d,  #6a976a);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 170px;
+}
+
+
+.card-login {
+    position:absolute;
+    left: 35%;
+    right: 45.2%;
+    align-items: center;
+    background: #ffffff;
+    text-align:center;
+    width: 30vw;
+    height: 45.2vh;
+    top: 32.7%;
+    
+}
+
+.login-img {
+    position: absolute;
+    left: 67%;
+	top: 38.4%;
+	margin-left:-110px;
+	margin-top:-40px;
+    border-top-right-radius: 10px;
+    width: 35vw;
+    height: 45.2vh;
+   
+}
+
+.img-adm {
+    position:absolute;
+    right: 67%;
+	top:38.4%;
+	margin-right:-110px;
+	margin-top:-40px;
+    border-top-left-radius: 10px;
+    width: 35%;
+    height: 45.4%;
+   
+}
+
+.usuario{
+    top: auto;
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(86, 221, 138);
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 16vw;
+    height: 3vh;
+    margin: 2.5px;
+    border-color: #15be6f;
+}
+
+
+
+.senha{
+    top: auto;
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(86, 221, 138);
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 16vw;
+    height: 3vh;
+    margin: 2.5px;
+    border-color: #15be6f;
+}
+
+.fone{
+    top: auto;
+    border-width: 3px;
+    border-style: solid;
+    background-color: rgb(86, 221, 138);
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 16vw;
+    height: 3vh;
+    margin: 2.5px;
+    border-color: #15be6f;
+}
+
+.btn-login {
+    top: auto;
+    background-color: white;
+    color: green;
+    border-color: green;
+    width: 16vw;
+    height: 3vh;
+    margin: 2.5px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-cancelar {
+    top: auto;
+    background-color: white;
+    color: green;
+    border-color: green;
+    width: 16vw;
+    height: 3vh;
+    margin: 2.5px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.barrinha {
+    position: absolute;
+    background-color: #EEEEEE;
+    width: 90vw;
+    height: 15vh;
+    color: #EEEEEE;
+    top: 12%;
+    text-align: center;
+}
+
+ .twitter {
+    color: rgb(57, 149, 185);
+    float: left;
+    gap: 20px;
+    margin: 5px 10px;
+}
+
+ .insta {
+    color: rgb(219, 98, 199);
+    float: left;
+    gap: 20px;
+    margin: 5px 10px;
+
+}
+
+ .face {
+    color: rgb(34, 73, 180);
+    float: left;
+    gap: 20px;
+    margin: 5px 10px;
+}
+
+
+
